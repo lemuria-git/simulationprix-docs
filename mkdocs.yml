@@ -1,0 +1,44 @@
+site_name: SimulationPrix Documentation
+site_url: https://<TON_COMPTE>.github.io/simulationprix-docs/
+repo_url: https://github.com/<TON_COMPTE>/simulationprix-docs
+repo_name: simulationprix-docs
+
+theme:
+  name: material
+  language: fr
+  palette:
+    primary: teal
+    accent: light blue
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - def_list
+  - toc:
+      permalink: true
+  - tables
+
+nav:
+  - Accueil: index.md
+  - Introduction: introduction.md
+  - Architecture générale: architecture.md
+  - Référentiels (ref.*): referentiels.md
+  - Configuration (cfg.*): configuration.md
+  - Simulation (simu.*): simulation.md
+  - Moteur de calcul: moteur-calcul.md
+  - Power Apps: powerapps.md
+  - Power BI: powerbi.md
+  - Flux global: flux-global.md
+  - Bonnes pratiques: bonnes-pratiques.md
+  - Annexes: annexes.md
