@@ -18,3 +18,12 @@ Set(
   })
 );
 ClearCollect(colPrix, _res.ResultSets.Table1);
+
+
+Glossaire
+
+Simulation : Exécution complète d’un calcul tarifaire.
+
+VersionRegles : Snapshot de barèmes.
+
+Fenêtre d’achat : Segment temporel conditionnant la vente.
