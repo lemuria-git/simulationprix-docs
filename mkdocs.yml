@@ -1,6 +1,8 @@
 site_name: SimulationPrix Documentation
-site_url: https://<TON_COMPTE>.github.io/simulationprix-docs/
-repo_url: https://github.com/<TON_COMPTE>/simulationprix-docs
+docs_dir: docs-src
+site_dir: docs
+site_url: https://lemuria-git.github.io/simulationprix-docs/
+repo_url: https://github.com/lemuria-git/simulationprix-docs
 repo_name: simulationprix-docs
 
 theme:
